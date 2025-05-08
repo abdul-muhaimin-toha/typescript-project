@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+bun.lock
+dist/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache
+.npm
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

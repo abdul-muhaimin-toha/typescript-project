@@ -1,0 +1,14 @@
+{
+   "name": "typescript-project",
+   "type": "module",
+   "main": "dist/index.js",
+   "scripts": {
+      "dev": "bun src/index.ts",
+      "build": "bunx tsc",
+      "start": "bun dist/index.js"
+   },
+   "devDependencies": {
+      "@types/bun": "latest",
+      "typescript": "^5.8.3"
+   }
+}
